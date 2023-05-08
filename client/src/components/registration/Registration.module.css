@@ -1,0 +1,16 @@
+.g-recaptcha {
+  display: inline-block;
+}
+.confirmation {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+  margin-top: 20px;
+}
+.link {
+  text-decoration: none;
+}
+.action {
+  float: right;
+  margin: 10px 0px 20px 0px !important;
+}

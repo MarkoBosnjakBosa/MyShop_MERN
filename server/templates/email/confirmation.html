@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <p>Dear <b><%= firstName %></b>,</p>
+    <p>thank you for using MyShop. Click on the button below to proceed with the registration:</p>
+    <p><a href="<%= process.env.BASE_URL %><%= process.env.CLIENT_PORT %>/confirmation?userId=<%= userId %>&confirmationToken=<%= confirmationToken %>" target="blank" style="text-align: center; padding: 10px; color: #fff; background-color: #1a1aff; font-size: 16px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; cursor: pointer">Confirm registration</a></p>
+    <p>The link is valid for the next 5 minutes.</p>
+    <p>Kind regards,<br />MyShop team</p>
+  </body>
+</html>

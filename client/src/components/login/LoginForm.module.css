@@ -1,0 +1,19 @@
+.rememberMe {
+  text-align: left;
+}
+.credentials {
+  text-align: right;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #0000ff;
+  text-decoration: underline;
+}
+.token {
+  float: left;
+}
+.submit {
+  float: right;
+}
+.action {
+  margin-bottom: 20px !important;
+}

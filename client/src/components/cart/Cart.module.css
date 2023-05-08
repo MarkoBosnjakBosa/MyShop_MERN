@@ -1,0 +1,25 @@
+.cart {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 800px;
+  text-align: center;
+}
+.title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.image {
+  width: 90%;
+  height: 250px;
+}
+.action {
+  width: 100%;
+  margin-top: 10px !important;
+}
+.link {
+  margin-left: 5px;
+}
+.pointer {
+  cursor: pointer !important;
+}

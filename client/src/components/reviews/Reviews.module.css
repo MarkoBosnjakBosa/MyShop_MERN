@@ -1,0 +1,25 @@
+.left {
+  width: 70%;
+  flex-shrink: 0;
+}
+.right {
+  color: #808080;
+}
+.text {
+  word-break: break-all;
+}
+.delete {
+  margin-top: 10px !important;
+}
+.icon {
+  cursor: pointer;
+}
+.checked {
+  color: #ffa500;
+}
+.action {
+  margin: 10px 10px 0px 0px !important;
+}
+.center {
+  text-align: center;
+}

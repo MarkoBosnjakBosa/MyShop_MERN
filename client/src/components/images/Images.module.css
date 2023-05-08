@@ -1,0 +1,64 @@
+.primaryImage {
+  display: none;
+}
+.upload {
+  margin-left: 10px !important;
+}
+.preview {
+  margin: 20px 0px 20px 0px !important;
+}
+.height {
+  height: 150px;
+}
+.width {
+  width: 150px;
+}
+.fullWidth {
+  width: 100%;
+}
+.text {
+  word-break: break-all;
+}
+.dropzone {
+  border: 2px dashed #91b0b3;
+  color: #92b0b3;
+}
+.description {
+  margin: auto;
+  text-align: center;
+  top: 50px;
+  left: 0px;
+  right: 0px;
+  font-size: 16px;
+}
+.images, .images:focus {
+  outline: none !important;
+  opacity: 0;
+}
+.focused {
+  background-color: #ecf0f5;
+}
+.previewImages {
+  text-align: left;
+}
+.image {
+  margin: 10px 0px 10px 0px;
+}
+.removeImage {
+  top: 30px;
+  right: -5px;
+  color: #ff0000;
+  background-color: #fff;
+}
+.grid {
+  padding-right: 20px;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.pointer {
+  cursor: pointer;
+}

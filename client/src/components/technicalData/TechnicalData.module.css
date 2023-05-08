@@ -1,0 +1,14 @@
+.settings {
+  margin: auto;
+  max-width: 900px;
+}
+.create {
+  text-align: left;
+  margin-top: 15px !important;
+}
+.center {
+  text-align: center;
+}
+.action {
+  cursor: pointer;
+}

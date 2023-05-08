@@ -1,0 +1,73 @@
+.form {
+  max-width: 800px;
+}
+.content {
+  max-width: 400px;
+}
+.position {
+  margin: auto;
+}
+.title {
+  word-break: break-all;
+}
+.leftButton {
+  float: left;
+}
+.rightButton {
+  float: right;
+}
+.pointer {
+  cursor: pointer;
+}
+.selectedQuantity {
+  text-align: left;
+  padding-left: 10px;
+  box-shadow: none;
+}
+.selectedQuantity input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.selectedQuantity button {
+  height: 33px;
+  margin-bottom: 1px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.action {
+  margin-bottom: 20px !important;
+}
+.settings {
+  max-width: 900px;
+}
+.center {
+  text-align: center;
+}
+.space {
+  margin-left: 5px !important;
+}
+.margin {
+  margin-top: 10px !important;
+}
+.firstRow {
+  margin-bottom: 10px;
+}
+.column {
+  border: 1px #808080 solid;
+  word-wrap: break-word;
+}
+.text {
+  text-align: right;
+}
+.padding {
+  padding: 10px;
+}
+.rating {
+  padding-top: 14px;
+}

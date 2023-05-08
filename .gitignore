@@ -1,0 +1,6 @@
+node_modules/
+.env
+server/temporary/*
+server/database/backups/*
+!server/temporary/.gitkeep
+!server/database/backups/.gitkeep

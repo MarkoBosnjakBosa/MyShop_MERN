@@ -1,0 +1,10 @@
+.action {
+  cursor: pointer;
+  margin-left: 5px !important;
+}
+.loader {
+  width: 20px !important;
+  height: 20px !important;
+  margin-bottom: 2px !important;
+  cursor: default;
+}

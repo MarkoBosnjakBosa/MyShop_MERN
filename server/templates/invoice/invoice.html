@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+		<style>
+			.invoice {
+				margin: auto;
+				max-width: 800px;
+				line-height: 24px;
+				padding: 30px;
+				border: 1px solid #eee;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+				font-size: 16px;
+				font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+				color: #555;
+			}
+			table {
+				width: 100%;
+				line-height: inherit;
+				text-align: left;
+			}
+			td {
+				vertical-align: top;
+				padding: 5px;
+			}
+			.highlight {
+				background-color: #eee;
+			}
+			.title {
+				line-height: 45px;
+				font-size: 45px;
+				color: #333;
+			}
+			.information {
+				text-align: right;
+			}
+			.products {
+				margin-top: 20px;
+			}
+			@media only screen and (max-width: 600px) {
+				.title, .information, .address {
+					width: 100%;
+					display: block;
+					text-align: center;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="invoice">
+			<table>
+				<tr>
+					<td class="title">MyShop</td>
+					<td class="information">
+						Invoice: #<b><%= order.orderNumber %></b><br />
+						Created at: <%= new Date(order.date).toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "short" }) %><br />
+						Payment type: <%= order.paymentType %>
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td class="address">
+						<%= order.user.address.street %> <%= order.user.address.houseNumber %><br />
+						<%= order.user.address.zipCode %> <%= order.user.address.city %><br />
+						<%= order.user.address.country %>
+					</td>
+					<td class="information">
+						<%= order.user.account.firstName %> <%= order.user.account.lastName %><br />
+						+<%= order.user.account.mobileNumber %><br />
+						<%= order.user.account.email %>
+					</td>
+				</tr>
+			</table>
+			<table class="table products">
+				<thead>
+					<tr class="highlight">
+						<th>#</th>
+						<th>Title</th>
+						<th>Price</th>
+						<th>Quantity</th>
+						<th>Total price</th>
+					</tr>
+				</thead>
+				<tbody>
+					<% order.products.forEach((product, index) => { %>
+						<tr>
+							<th><%= ++index %></th>
+							<td><%= product.title %></td>
+							<td><%= product.price %></td>
+							<td><%= product.selectedQuantity %></td>
+							<td><%= product.totalPrice %></td>
+						</tr>
+					<% }); %>
+					<tr class="highlight">
+						<th colspan="4">Total</th>
+						<th><%= order.totalPrice %></th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

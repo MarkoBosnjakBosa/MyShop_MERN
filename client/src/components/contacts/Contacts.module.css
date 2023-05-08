@@ -1,0 +1,55 @@
+.contacts {
+  max-width: 1000px;
+}
+.settings, .form {
+  max-width: 400px;
+}
+.contact {
+  max-width: 800px;
+}
+.message {
+  position: fixed;
+  right: 20px;
+  cursor: pointer;
+}
+.chat {
+  bottom: 100px;
+}
+.whatsApp {
+  bottom: 60px;
+}
+.viber {
+  bottom: 20px;
+}
+.position {
+  margin: auto;
+}
+.center {
+  text-align: center;
+}
+.leftButton {
+  float: left;
+}
+.rightButton {
+  float: right;
+}
+.left {
+  width: 70%;
+  flex-shrink: 0;
+}
+.right {
+  color: #808080;
+}
+.space {
+  margin-bottom: 10px !important;
+}
+.text {
+  word-break: break-all;
+}
+.link {
+  color: #000;
+  text-decoration: none;
+}
+.action {
+  margin-bottom: 20px !important;
+}

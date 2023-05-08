@@ -1,0 +1,49 @@
+.authentication {
+  margin: 20px 0px 30px 0px;
+}
+.chip {
+  height: 50px !important;
+  font-size: 32px !important;
+}
+.content {
+  text-align: left;
+}
+.token {
+  margin-bottom: 15px;
+}
+.avatar {
+  max-width: 630px;
+  margin: auto;
+  text-align: center;
+}
+.image {
+  height: 200px;
+  border-radius: 50%;
+}
+.invisible {
+  display: none;
+}
+.flash {
+  opacity: 0.5;
+}
+.download {
+  text-decoration: none;
+}
+.leftButton {
+  float: left;
+}
+.rightButton {
+  float: right;
+}
+.width {
+  width: 200px !important;
+}
+.space {
+  margin-left: 5px;
+}
+.margin {
+  margin-top: 10px !important;
+}
+.action {
+  margin-bottom: 20px !important;
+}

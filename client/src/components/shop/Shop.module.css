@@ -1,0 +1,18 @@
+.settings {
+  margin: auto;
+  width: 1000px;
+}
+.center {
+  text-align: center;
+}
+.card {
+  float: left;
+  width: 100%;
+}
+.image {
+  height: 140px;
+  cursor: pointer;
+}
+.content {
+  padding: 8px;
+}

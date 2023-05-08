@@ -1,0 +1,37 @@
+.settings, .order {
+  max-width: 1200px;
+}
+.information {
+  max-width: 400px;
+}
+.position {
+  margin: auto;
+}
+.center {
+  text-align: center;
+}
+.text {
+  word-break: break-all;
+}
+.left {
+  width: 70%;
+  flex-shrink: 0;
+}
+.right {
+  color: #808080;
+}
+.link {
+  cursor: pointer;
+}
+.next {
+  float: right;
+}
+.leftPage {
+  margin-right: 10px !important;
+}
+.rightPage {
+  margin-left: 10px !important;
+}
+.action {
+  margin: 10px 0px 20px 0px !important;
+}

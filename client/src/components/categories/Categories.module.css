@@ -1,0 +1,26 @@
+.settings {
+  margin: auto;
+  max-width: 900px;
+}
+.create {
+  margin-top: 10px !important;
+}
+.field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.edit {
+  color: #008000;
+}
+.disable {
+  color: #ff0000;
+}
+.action {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+}
